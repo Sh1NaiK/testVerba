@@ -1,0 +1,23 @@
+{
+  "name": "testverba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./dist/index.js",
+    "watch": "tsc --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.5",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/express": "^4.17.17",
+    "@types/pg": "^8.6.6",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
